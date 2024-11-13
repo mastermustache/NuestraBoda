@@ -13,6 +13,11 @@
   justify-content: start;
 }
 
+iframe {
+  aspect-ratio: 4 / 4;
+  width: 100%;
+}
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -983,12 +988,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
@@ -1670,7 +1675,7 @@ h3 {
   top: 10px;
   bottom: 10px;
   right: 10px;
-  border: 2px solid #fff;
+  border: 0px solid #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
