@@ -57,6 +57,16 @@ a:focus,
   outline: none;
 }
 
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
 /* line 28, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 a:focus {
   color: #fff;
@@ -998,7 +1008,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area {
-  padding: 0 50px;
+  padding: 0;
   background: #fff;
 }
 
@@ -1027,7 +1037,7 @@ h3 {
     height: 420px;
   }
 }
-
+g
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 14, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
   .slider_area_inner {
@@ -1057,7 +1067,7 @@ h3 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #C78665;
+  background: rgba(199, 134, 101, .5);
   padding: 126px 55px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1348,7 +1358,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_bg_1 {
-  background-image: url(../img/program_details/1.png);
+  background-image: url(../img/program_details/1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
